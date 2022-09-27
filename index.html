@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/boton.css">
+    <link rel="stylesheet" href="css/habilidasdesEstilo.css">
+</head>
+
+<body class="body-container">
+    <header class="header">
+        <div class="contenedorLogo">
+            <img src="img/logo.png" class="logo" alt="">
+            <p>Unimagdalena</p>
+        </div>
+
+        <nav>
+            <ul class="nav">
+                <li><a href="#presentacion">Presentación</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article class="main">
+        <section>
+            <h1 id="presentacion">Presentación</h1>
+            <img src="img/Santa_Marta.jpg" class="imagenSeccion" alt="">
+            <p>Programador Jr con experiencia en diseño web Front-end, me considero una persona proactiva, organizada,
+                responsable capaz de resover problema de manera creativa.</p>
+            <p>La imagen anterior es Santa Marta y me represemnta porque nací y crecí en ella, y me encantaria aportar
+                al desarrollo de mi ciudad.</p>
+        </section>
+
+        <section>
+            <h1 id="experiencia"></h1>
+            <div id="contenidoExp" class="tex1"> </div>
+        </section>
+
+        <section>
+            <h1 id="habilidades"></h1>
+            <div id="contenidoHabilidades"></div>
+            <div>
+                <!-- <p>Diseño web: <meter min="0" max="100" low="25" high="75" optimum="100" value="40" style="margin-left: 10px;"></meter> 40%</p>
+                <p>Css: <meter min="0" max="100" low="25" high="75" optimum="100" value="70" style="margin-left: 10px;"></meter></p>
+                <p>Html: <meter min="0" max="100" low="25" high="75" optimum="100" value="100" style="margin-left: 10px;"></meter></p>
+                <p>React: <meter min="0" max="100" low="25" high="75" optimum="100" value="20" style="margin-left: 10px;"></meter></p> -->
+
+                <!-- <div class="contenedorSpiner">
+                    <p>Diseño web:</p>
+                    <div class="loader">
+                        <p>10</p>
+                    </div>
+                    <label for=""></label>                   
+                </div> -->
+
+                <!-- <div class="ui-widgets">
+                    <div class="ui-values">10</div>
+                    <div class="ui-labels">Html</div>
+                </div>
+                <div class="ui-widgets">
+                    <div class="ui-values">4</div>
+                    <div class="ui-labels">Js</div>
+                </div>
+                <div class="ui-widgets">
+                    <div class="ui-values">8</div>
+                    <div class="ui-labels">Css</div>
+                </div>
+                <div class="ui-widgets">
+                    <div class="ui-values">5</div>
+                    <div class="ui-labels">Diseño</div>
+                </div>
+                <div class="ui-widgets">
+                    <div class="ui-values">5</div>
+                    <div class="ui-labels">React</div>
+                </div> -->
+
+            </div>
+        </section>
+        <section>
+            <h1 id="contacto">Contacto</h1>
+            <form class="contenedorInputs">
+                <p id="valueAsunto"></p>
+                <input placeholder="Asunto" type="text" id="asunto" class="input" required="">
+                <input placeholder="Correo De Contacto" type="email" id="email" name="email" class="input" required="">
+                <!-- <input placeholder="Asunto" type="text" class="input" required=""> -->
+                <textarea name="" id="comentario" cols="20" rows="10" maxlength="100" required="" placeholder="comentarios"></textarea>
+                <button class="button" onclick="" id="botonContacto"> Enviar </button>
+            </form>
+        </section>
+    </article>
+
+    <aside class="sidebar">
+        <div class="">
+            <img class="foto" src="img/foto.jpg" alt="">
+            <h2>Gabriel Candelario</h2>
+            <p>soy un programador web junior, con conocimientos en desarrollo de aplicaciones web. Mi interes siempre 
+                ha girado al rededor del desarrollo Front-end es por ello que he adquirido conocimientos en css, html, javascrip y un poco de React. mi deseo es usasr mis capacidades 
+                para colaborar en los proyectos y generar aplicaciones de alta calidad  y eficiencia.</p>
+        </div>
+        <div class="listaRedes">
+            <h2>Contactame</h2>
+            <ul class="navAside">
+                
+                <li><a href=""><i class="fab fa-linkedin"></i> Linkedin</a></li>
+                
+            </ul>
+        </div>
+    </aside>
+
+    <footer class="footer">
+        <div class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="img/logo.png" alt="Logo">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2 class="titulo-footer">DATOS DE CONTACTO</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> Santa Marta</p>
+                    <p><i class="fas fa-envelope"></i> Gcande26@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 3136251729</p>
+                </div>
+                <div class="box">
+                    <h2 class="titulo-footer">SIGUEME</h2>
+                    <div class="red-social">
+                        <a href="https://es-la.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                        <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+                        <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Gcande26</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </div>
+    </footer>
+    
+    <script src="js/javascrip.js"></script>
+    <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script>
+    <script src="js/sweetAlert.js"></script>
+    <script src="https://kit.fontawesome.com/88cd79b60e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
